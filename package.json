@@ -21,6 +21,10 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
+    "@fta/components": "^1.0.3-alpha.9",
+    "@fta/h5-blended-taro3": "1.0.6-alpha.7",
+    "@tarojs/components": "3.3.3",
+    "@tarojs/taro": "3.3.3",
     "react": "17.x",
     "react-dom": "17.x",
     "umi": "^3.5.30"
@@ -34,5 +38,8 @@
     "prettier": "^2.2.0",
     "typescript": "^4.1.2",
     "yorkie": "^2.0.0"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.0"
   }
 }
