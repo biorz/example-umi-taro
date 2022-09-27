@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
-    "@fta/components": "^1.0.3-alpha.9",
-    "@fta/h5-blended-taro3": "1.0.6-alpha.7",
+    "@fta/components": "git+https://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:x-oauth-basic@github.com/biorz/fta-components.git",
+    "@fta/h5-blended-taro3": "git+https://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:x-oauth-basic@github.com/biorz/fta-h5-blended-taro3.git",
     "@tarojs/components": "3.3.3",
     "@tarojs/taro": "3.3.3",
     "react": "17.x",
