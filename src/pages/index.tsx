@@ -60,6 +60,7 @@ export default function IndexPage() {
           // setTimeout(show, 100)
         }}
         // enableCheckAll={[true, false]}
+        containerStyle={{ height: '350px' }}
         onConfirm={onConfirm}
         onExceed={onExceed}
         onChange={(_: any[], selected: any[]) => {
