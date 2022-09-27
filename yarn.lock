@@ -473,17 +473,21 @@
   resolved "https://registry.npmjs.org/@formatjs/intl-utils/-/intl-utils-2.3.0.tgz#2dc8c57044de0340eb53a7ba602e59abf80dc799"
   integrity sha512-KWk80UPIzPmUg+P0rKh6TqspRw0G6eux1PuJr+zz47ftMaZ9QDwbGzHZbtzWkl5hgayM/qrKRutllRC7D/vVXQ==
 
-"@fta/components@git+https://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:x-oauth-basic@github.com/biorz/fta-components.git":
+"@fta/components-address-picker@git+https://github.com/biorz/fta-address-picker.git":
+  version "1.0.0-alpha.2"
+  resolved "git+https://github.com/biorz/fta-address-picker.git#fc7b7583860c8deca0f2d427992200c7e02926c5"
+
+"@fta/components@git+https://github.com/biorz/fta-components.git":
   version "1.0.3-rc.3"
-  resolved "git+https://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:x-oauth-basic@github.com/biorz/fta-components.git#55a0067a0a4a8951d092130a089a7e8c40ddf370"
+  resolved "git+https://github.com/biorz/fta-components.git#55a0067a0a4a8951d092130a089a7e8c40ddf370"
   dependencies:
     async-validator "^4.1.1"
     lodash.tostring "^4.1.4"
     react-native-scroll-into-view "^2.0.2"
 
-"@fta/h5-blended-taro3@git+https://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:x-oauth-basic@github.com/biorz/fta-h5-blended-taro3.git":
+"@fta/h5-blended-taro3@git+https://github.com/biorz/fta-h5-blended-taro3.git":
   version "1.0.10"
-  resolved "git+https://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:x-oauth-basic@github.com/biorz/fta-h5-blended-taro3.git#e0193d30b5808c36589c33c7a949b5bdee1de87a"
+  resolved "git+https://github.com/biorz/fta-h5-blended-taro3.git#e0193d30b5808c36589c33c7a949b5bdee1de87a"
   dependencies:
     "@tarojs/components" "3.3.3"
     "@tarojs/taro" "3.3.3"
@@ -945,13 +949,6 @@
   dependencies:
     "@types/react" "^16"
 
-"@types/react-dom@^17.0.0":
-  version "17.0.17"
-  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.17.tgz#2e3743277a793a96a99f1bf87614598289da68a1"
-  integrity sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==
-  dependencies:
-    "@types/react" "^17"
-
 "@types/react-helmet@^6.1.0":
   version "6.1.5"
   resolved "https://registry.npmjs.org/@types/react-helmet/-/react-helmet-6.1.5.tgz#35f89a6b1646ee2bc342a33a9a6c8777933f9083"
@@ -1021,19 +1018,13 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16", "@types/react@^16.9.43", "@types/react@^17", "@types/react@^17.0.0":
-  version "17.0.50"
-  resolved "https://registry.npmjs.org/@types/react/-/react-17.0.50.tgz#39abb4f7098f546cfcd6b51207c90c4295ee81fc"
-  integrity sha512-ZCBHzpDb5skMnc1zFXAXnL3l1FAdi+xZvwxK+PkglMmBrwjpp9nKaWuEvrGnSifCJmBFGxZOOFuwC6KH/s0NuA==
+"@types/react@*", "@types/react@16.14.0", "@types/react@^16", "@types/react@^16.9.43":
+  version "16.14.0"
+  resolved "https://registry.npmjs.org/@types/react/-/react-16.14.0.tgz#bc022cfe1609899b0f2196376b267724e7300f0e"
+  integrity sha512-jJjHo1uOe+NENRIBvF46tJimUvPnmbQ41Ax0pEm7pRvhPg+wuj8VMOHHiMvaGmZRzRrCtm7KnL5OOE/6kHPK8w==
   dependencies:
     "@types/prop-types" "*"
-    "@types/scheduler" "*"
     csstype "^3.0.2"
-
-"@types/scheduler@*":
-  version "0.16.2"
-  resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
-  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
@@ -6004,15 +5995,6 @@ react-dom@16.x:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-dom@17.x:
-  version "17.0.2"
-  resolved "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
-  integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    scheduler "^0.20.2"
-
 react-fast-compare@^3.1.1:
   version "3.2.0"
   resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
@@ -6181,7 +6163,7 @@ react-tween-state@^0.1.5:
     raf "^3.1.0"
     tween-functions "^1.0.1"
 
-react@16.x:
+react@16.14.0, react@16.x:
   version "16.14.0"
   resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
@@ -6189,14 +6171,6 @@ react@16.x:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-
-react@17.x:
-  version "17.0.2"
-  resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
-  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
@@ -6619,14 +6593,6 @@ scheduler@^0.19.1:
   version "0.19.1"
   resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
   integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-
-scheduler@^0.20.2:
-  version "0.20.2"
-  resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz#4baee39436e34aa93b4874bddcbf0fe8b8b50e91"
-  integrity sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
