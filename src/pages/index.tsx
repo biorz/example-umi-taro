@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import AddressPicker from '@fta/components-address-picker';
-import { Button } from '@tarojs/components';
+import { Button } from '@fta/components';
 import { customSource as options } from './custom-source';
 
 const AddressPickerParams = {
